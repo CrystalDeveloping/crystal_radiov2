@@ -1,0 +1,152 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.radiobg {
+    position: absolute;
+    width: 340px;
+    height: 600px;
+    left: 1500px;
+    top: 450px;
+    background-image: url('img/radio.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.input-container {
+    position: relative;
+    width: 100px;
+}
+
+#numberInput {
+    position: absolute;
+    left: 1633px;
+    top: 648px;
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    border-radius: 30px;
+    border: none;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    outline: none;
+}
+
+.buttons-container {
+    position: absolute;
+    left: 1668px;
+    top: 730px;
+    display: flex;
+    flex-direction: column;
+    outline: none;
+}
+
+#incrementButton, #decrementButton {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    outline: none;
+}
+
+#decrementButton {
+    margin-bottom: 0;
+}
+
+#numberInput::placeholder {
+    color: black;
+    text-align: center;
+    outline: none;
+}
+
+#submitButton {
+    position: absolute;
+    left: 1725px;
+    top: 728px;
+    width: 50px;
+    height: 34px;
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    outline: none;
+}
+
+#accendiBottone {
+    position: absolute;
+    left: 1740px;
+    top: 500px;
+    width: 50px;
+    height: 45px;
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    outline: none;
+}
+
+#radioScr {
+    position: absolute;
+    left: 1700px;
+    top: 450px;
+    font-size: 18px;
+    color: white;
+}
+
+#lasciaRadio {
+    position: absolute;
+    left: 1600px;
+    top: 770px;
+    width: 45px;
+    height: 45px;
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    outline: none;
+}
+
+.volume-buttons {
+    position: absolute;
+    left: 1815px;
+    top: 664px;
+    display: flex;
+    flex-direction: column;
+    outline: none;
+}
+
+#alzavolume, #abbassavolume {
+    width: 20px;
+    height: 43px;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    outline: none;
+}
+
+#lasciaRadioSrc,
+#abbassavolumesrc,
+#alzavolumescr {
+    position: absolute;
+    left: 1560px;
+    top: 450px;
+    font-size: 18px;
+    color: white;
+}
