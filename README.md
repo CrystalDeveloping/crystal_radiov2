@@ -2,6 +2,9 @@
 
 Sistema di radio ideato da Alyx.
 
+![radioSpoiler](https://github.com/user-attachments/assets/49712333-d3b7-4277-ae38-9a2687c48187)
+
+
 # DIPENDENZE
 
 ES_EXTENDED
